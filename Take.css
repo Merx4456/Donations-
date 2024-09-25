@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color for contrast */
+    line-height: 1.6; /* Improved readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    width: 80%; /* Container width */
+    margin: auto; /* Center the container */
+    overflow: hidden; /* Clear floats */
+}
+
+/* Header Styles */
+.header {
+    background: #50b3a2; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center text */
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5rem; /* Large font size for header */
+}
+
+/* Content Styles */
+.content {
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center content */
+}
+
+.content h2 {
+    font-size: 2rem; /* Font size for subheading */
+    margin-bottom: 20px; /* Spacing below subheading */
+}
+
+.content p {
+    font-size: 1.2rem; /* Font size for paragraph */
+    margin: 20px 0; /* Spacing above and below paragraphs */
+    text-align: justify; /* Justify text for cleaner look */
+}
+
+.content img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Spacing below image */
+}
+
+/* Donation Section Styles */
+.donate-section {
+    text-align: center; /* Center donation section */
+    margin: 30px 0; /* Margin above and below section */
+}
+
+/* Button Styles */
+.donate-button {
+    border: none; /* Remove default border */
+    border-radius: 1.5rem; /* Rounded corners */
+    min-width: 11.625rem; /* Minimum width */
+    padding: 0 2rem; /* Padding for button */
+    height: 2.625rem; /* Fixed height */
+    font-weight: bold; /* Bold text */
+    background-color: #FFD140; /* Button background color */
+    color: #000000; /* Button text color */
+    font-family: "Helvetica Neue", Arial, sans-serif; /* Font family */
+    font-size: 1rem; /* Font size */
+    line-height: 1.25rem; /* Line height */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+/* Button Hover Effect */
+.donate-button:hover {
+    background-color: #f0c040; /* Change color on hover */
+}
+
+/* Image Styles */
+img {
+    max-width: 100%; /* Ensure images are responsive */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Full width on smaller screens */
+    }
+
+    .header h1 {
+        font-size: 2rem; /* Smaller font size for header */
+    }
+
+    .content h2 {
+        font-size: 1.5rem; /* Smaller font size for subheading */
+    }
+
+    .content p {
+        font-size: 1rem; /* Smaller font size for paragraph */
+    }
+}
